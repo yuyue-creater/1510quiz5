@@ -19,5 +19,3 @@ def is_sorted(integer_list):
         if integer_list[i-1] > integer_list[i]:
             return False
     return True
-
-print(is_sorted(["a", "A"]))
